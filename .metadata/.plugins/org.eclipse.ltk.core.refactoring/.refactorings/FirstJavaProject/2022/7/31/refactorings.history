@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;samplePackageTwo.SampleClass&apos; to &apos;SampleCl&apos;&#x0D;&#x0A;- Original project: &apos;FirstJavaProject&apos;&#x0D;&#x0A;- Original element: &apos;samplePackageTwo.SampleClass&apos;&#x0D;&#x0A;- Renamed element: &apos;samplePackageTwo.SampleCl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SampleClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;samplePackageTwo{SampleClass.java[SampleClass" matchStrategy="1" name="SampleCl" qualified="false" references="true" similarDeclarations="false" stamp="1658970978416" textual="false" version="1.0"/>
+</session>

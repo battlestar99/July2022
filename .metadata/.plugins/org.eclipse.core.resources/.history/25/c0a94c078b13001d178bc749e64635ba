@@ -1,0 +1,53 @@
+package samplePackage;
+
+public class ArrayLearning {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		
+		int[] b = {10, 20, 30};
+		int[] c = new int[5];
+		
+		c[1] = 100;
+		c[2] = 200;
+		c[3] = 300;
+		c[4] = 400;
+		c[5] = 1000;
+		
+		
+		String[] names = {"Dee", "Syed", "Ali"};
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

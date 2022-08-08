@@ -1,0 +1,73 @@
+package samplePackage;
+
+public class MarkingSystem {
+
+	public static void main(String[] args) {
+		
+//		 90 - A
+//		 80 - B
+//		 70 - C
+//		 60 - D
+//		 50 - E
+//		 <50- F
+		
+		int mark = 75; // -10 or 101 - Invalid input
+		
+		if(mark > 100){
+			System.out.println("Invalid data");
+		}else if(75 >= 90 && 75 <= 100) { //  || - or  && - and
+			System.out.println("A");
+		}else if(mark >= 80) {
+			System.out.println("B");
+		}else if(mark >= 70) {
+			System.out.println("C");
+		}else if(mark >= 60) {
+			System.out.println("D");
+		}else if(mark >= 50) {
+			System.out.println("E");
+		}else if(mark <0) {
+			System.out.println("Invalid data");
+		}else if(mark < 50) {
+			System.out.println("Fail");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
