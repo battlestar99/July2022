@@ -1,0 +1,34 @@
+package samplePackage;
+
+public class FunctionLearning {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		int c = a + b;
+		System.out.println(c);
+		
+		int d = 30;
+		int e = 40;
+		int f = d + e;
+		System.out.println(f);
+		
+		int g = 50;
+		int h = 60;
+		int i = g + h;
+		System.out.println(i);
+		
+		FunctionLearning fl = new FunctionLearning();
+		fl.addingIntNumbers();
+		
+	}
+	
+	public void addingIntNumbers() {
+		int a = 10;
+		int b = 20;
+		int c = a + b;
+		System.out.println(c);
+
+	}
+}

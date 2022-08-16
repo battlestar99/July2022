@@ -1,0 +1,104 @@
+package samplePackage;
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+public class CollectionFramework {
+
+	public static void main(String[] args) {
+		
+		String[] names = new String[3];
+		
+		names[0] = "myName";
+		names[1] = "myName2";
+		names[2] = "myName3";
+		System.out.println(Arrays.toString(names));
+		
+		List<Integer> numbers = new ArrayList<Integer>();
+		
+		numbers.add(0, 10);
+		numbers.add(1, 20);
+		numbers.add(30);
+		numbers.add(40);
+		
+		System.out.println(numbers.contains(50));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		int a = 20;
+//		int b = 30;
+//		
+//		int diff = a - b;
+//		System.out.println(diff);
+//		
+//		if(a>b) {
+//			System.out.println("a is max: "+a +" "+ "b is min: "+b);
+//		}else if(a<b) {
+//			System.out.println("b is max: "+b +" "+ "a is min: "+a);
+//		}else {
+//			System.out.println("Both are equal");
+//		}
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

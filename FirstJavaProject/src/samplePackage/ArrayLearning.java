@@ -20,6 +20,11 @@ public class ArrayLearning {
 		// and print all of them
 		
 		int[] b = {10, 20, 30};
+		
+		
+		
+		
+		
 		int[] c = new int[5];
 		
 		c[0] = 1000;
@@ -29,10 +34,10 @@ public class ArrayLearning {
 		c[4] = 400;
 		
 		System.out.println(c[0]);
-//		System.out.println(c[1]);
-//		System.out.println(c[2]);
+		System.out.println(c[1]);
+		System.out.println(c[2]);
 		System.out.println(c[3]);
-//		System.out.println(c[4]);
+		System.out.println(c[4]);
 //		
 //		System.out.println(b[0]);
 //		System.out.println(b[1]);
