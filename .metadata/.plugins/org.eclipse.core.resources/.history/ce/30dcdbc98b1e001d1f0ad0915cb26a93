@@ -1,0 +1,14 @@
+package functions;
+
+public class MainFunction {
+
+	public static void main(String[] args) {
+		
+		AddingIntNumbers ain = new AddingIntNumbers();
+		int result = ain.addingIntTwoNumbers(10, 20);
+		System.out.println(result);
+		ain.addingIntThreeNumbers(40, 50, 28);
+		
+	}
+
+}

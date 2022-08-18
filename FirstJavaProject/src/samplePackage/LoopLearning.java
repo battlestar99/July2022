@@ -26,7 +26,7 @@ public class LoopLearning {
 			System.out.println(i);
 			
 		}
-		
+
 //		System.out.println("Mehdi");
 		
 		

@@ -1,0 +1,14 @@
+package functions;
+
+public class MainFunction {
+
+	public static void main(String[] args) {
+		
+		AddingDoubleNumber adn = new AddingDoubleNumber();
+		adn.addTwoDoubleNumbers(10.25, 20.75);
+		
+		
+		
+	}
+
+}
