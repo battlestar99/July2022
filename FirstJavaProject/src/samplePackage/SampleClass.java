@@ -1,5 +1,7 @@
 package samplePackage;
 
+import java.util.Arrays;
+
 public class SampleClass {
 
 	public static void main(String[] args) {
@@ -42,8 +44,16 @@ public class SampleClass {
 		String lastName = "Syed";
 		
 		boolean isKitchenEmpty = true;
-
 		
+		//primitive data types - int, double, boolan
+		//non primitive - String, Array
+		
+		int[] any = {};
+//		any[0] = 5;
+		System.out.println(Arrays.toString(any));
+		String anyString = new String("Name");
+//		String lastName = "Syed";
+		System.out.println(anyString);
 		int a = 100;
 	
 		if(a == 10) {
