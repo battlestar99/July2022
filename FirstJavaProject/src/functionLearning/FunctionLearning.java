@@ -1,5 +1,7 @@
 package functionLearning;
 
+import functions.AddingDoubleNumber;
+
 public class FunctionLearning {
 
 	public static void main(String[] args) {
@@ -12,6 +14,10 @@ public class FunctionLearning {
 		AddingIntNumbers ain = new AddingIntNumbers();
 		ain.addingIntThreeNumbers(10, 20, 30);
 		ain.addingIntTwoNumbers(2, 5);
+		
+		AddingDoubleNumber adn = new AddingDoubleNumber();
+		adn.addTwoDoubleNumbers(10.25, 205.02);
+		
 	}
 	
 	public void addingIntNumbers(int a, int b) {
