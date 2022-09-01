@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SauceDemo {
+public class problemUser {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Downloads\\chromedriver_win32\\chromedriver.exe");
@@ -18,7 +18,7 @@ public class SauceDemo {
 		//xpath - Absolute  -  Relative 
 		
 		WebElement userNameTextbox = driver.findElement(By.xpath("html/body/div/div/div[2]/div[1]/div[1]/div/form/div[1]/input"));
-		userNameTextbox.sendKeys("standard_user");
+		userNameTextbox.sendKeys("problem_user");
 		
 		WebElement passwordTextbox = driver.findElement(By.name("password"));
 		passwordTextbox.sendKeys("secret_sauce");
