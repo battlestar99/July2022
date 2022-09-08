@@ -1,5 +1,7 @@
 package selenium;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,7 +15,9 @@ public class SeleniumBasic {
 		
 		driver.get("https://www.amazon.com/");
 		
-		Thread.sleep(7000);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		Thread.sleep(20000);
 		
 		//Locators
 		//id, name, className, xpath, cssSelector, 

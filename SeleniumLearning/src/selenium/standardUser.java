@@ -17,14 +17,21 @@ public class standardUser {
 		//linkText, partialLinkText, tagName
 		//xpath - Absolute  -  Relative 
 		
-		WebElement userNameTextbox = driver.findElement(By.xpath("html/body/div/div/div[2]/div[1]/div[1]/div/form/div[1]/input"));
-		userNameTextbox.sendKeys("standard_user");
+//		WebElement userNameTextbox = driver.findElement(By.xpath("html/body/div/div/div[2]/div[1]/div[1]/div/form/div[1]/input"));
+//		userNameTextbox.sendKeys("standard_user");
+		SigninPage signinPage = new SigninPage(driver);
 		
-		WebElement passwordTextbox = driver.findElement(By.name("password"));
-		passwordTextbox.sendKeys("secret_sauce");
+		signinPage.userNameTextBox().sendKeys("standard_user");
 		
-		WebElement loginButton = driver.findElement(By.xpath("//input[@type = 'submit']"));
-		loginButton.click();
+//		WebElement passwordTextbox = driver.findElement(By.name("password"));
+//		passwordTextbox.sendKeys("secret_sauce");
+		
+		signinPage.passwordTextbox().sendKeys("secret_sauce");
+		
+//		WebElement loginButton = driver.findElement(By.xpath("//input[@type = 'submit']"));
+//		loginButton.click();
+		
+		signinPage.loginButton().click();
 		
 		String expectedUrl = "Https://Www.Saucedemo.Com/Inventory.Html";
 		String actualUrl = driver.getCurrentUrl();
