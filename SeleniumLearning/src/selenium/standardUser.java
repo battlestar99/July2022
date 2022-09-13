@@ -11,6 +11,7 @@ public class standardUser {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
+		
 
 		//Locators
 		//id, name, className, xpath, cssSelector, 
@@ -21,7 +22,7 @@ public class standardUser {
 //		userNameTextbox.sendKeys("standard_user");
 		SigninPage signinPage = new SigninPage(driver);
 		
-		signinPage.userNameTextBox().sendKeys("standard_user");
+		signinPage.userNameTextBox("standard_user");
 		
 //		WebElement passwordTextbox = driver.findElement(By.name("password"));
 //		passwordTextbox.sendKeys("secret_sauce");

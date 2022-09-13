@@ -11,9 +11,9 @@ public class SigninPage {
 		internalDriver = driver;
 	}
 	
-	public WebElement userNameTextBox() {
+	public void userNameTextBox(String userName) {
 		WebElement userNameTextbox = internalDriver.findElement(By.xpath("html/body/div/div/div[2]/div[1]/div[1]/div/form/div[1]/input"));
-		return userNameTextbox;
+		userNameTextbox.sendKeys(userName);
 	}
 	
 	public WebElement passwordTextbox() {

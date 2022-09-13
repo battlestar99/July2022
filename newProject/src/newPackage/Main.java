@@ -2,15 +2,16 @@ package newPackage;
 
 public class Main {
 	 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-       
+	public static void main(String[] args) { //execution point
+		// TODO Auto-generated method stub 
+	   int z = myMethod(5,3);
+       System.out.println(z);
 		
 		
 	} 
-	static void myMethod (String fname, int age) { //passing string type of data as parameter
+	static int myMethod (int x,int y) { 
  
-		System.out.println(fname+" is "+age ); 
+		return x+y; //returning Value
 		 
 		
 		

@@ -28,7 +28,7 @@ public class problemUser {
 		
 		SigninPage signinPage = new SigninPage(driver);
 		
-		signinPage.userNameTextBox().sendKeys("problem_user");
+		signinPage.userNameTextBox("problem_user");
 		signinPage.passwordTextbox().sendKeys("secret_sauce");
 		signinPage.loginButton().click();
 		
