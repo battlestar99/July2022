@@ -33,6 +33,8 @@ public class Alert {
 //		WebElement text = driver.findElement(By.xpath("//*[@id=\"confirmResult\"]"));
 //		System.out.println(text.getText());
 		
+
+		
 		WebElement clickMeButtonFourth = driver.findElement(By.xpath("//*[@id=\"promtButton\"]"));
 		clickMeButtonFourth.click();
 		
